@@ -1,0 +1,23 @@
+{
+  "name": "apisicbosunwin",
+  "version": "1.0.0",
+  "description": "API server for Sicbo prediction using AI Ensemble.",
+  "main": "apisicbosunwin.js",
+  "type": "module",
+  "scripts": {
+    "start": "node apisicbosunwin.js"
+  },
+  "keywords": [
+    "fastify",
+    "sicbo",
+    "ai",
+    "prediction"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "fastify": "^4.24.3",
+    "node-fetch": "^3.3.2"
+  }
+}
